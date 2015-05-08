@@ -7,7 +7,8 @@ Have Glimpse Heads-Up Display on you AngularJS single-page application.
 This project isn't available on any package manager. Use directly from GitHub.
 
 ## Configuring
-```
+
+```js
 var app = angular.module('myApp', ['wt.glimpse']);
 ...
 app.config(function (glimpseProvider) {
